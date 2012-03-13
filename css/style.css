@@ -34,8 +34,8 @@ article p {
   font-size: 3.5em; }
 article a {
   color: #e35214; }
-article a:hover {
-  color: #fff; }
+  article a:hover {
+    color: #fff; }
 article dl {
   margin: 2em 3em; }
 article dt {
@@ -49,6 +49,6 @@ article dt {
 article dd {
   line-height: 170%;
   font-size: 1.2em; }
-article dd:before {
-  content: "\2192 ";
-  padding-right: 1em; }
+  article dd:before {
+    content: "\2192 ";
+    padding-right: 1em; }

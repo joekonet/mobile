@@ -20,7 +20,7 @@
 		<article>
 			<b>Joseph J. Kocovsky</b>
 			<i>Front-End Developer</i>
-			<p><a href="http://joeko.net/resume/joe-kocovsky-resume.pdf" title="CV" target="_blank">&raquo; my r&#233;sum&#233;</a></p>
+			<p><a href="http://joeko.net/resume/joe-kocovsky-resume.pdf" title="my r&#233;sum&#233;" target="_blank">&raquo; my r&#233;sum&#233;</a></p>
 			<dl>
 				<dt>Find me</dt>
 				<dd><a href="http://www.linkedin.com/in/joekonet" title="LinkedIn" target="_blank">LinkedIn</a></dd>

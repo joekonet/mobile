@@ -43,9 +43,9 @@ article {
 	}
 	a {
 		color:#e35214;
-	}
-	a:hover {
-		color:#fff;
+		&:hover {
+			color:#fff;
+		}
 	}
 	dl {
 		margin:2em 3em;
@@ -62,9 +62,9 @@ article {
 	dd {
 		line-height:170%;
 		font-size:1.2em;
-	}
-	dd:before {
-	   content:"\2192 ";
-	   padding-right:1em;
+		&:before {
+		   content:"\2192 ";
+		   padding-right:1em;
+		}
 	}
 }
