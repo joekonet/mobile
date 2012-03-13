@@ -1,0 +1,158 @@
+/*
+Theme Name: blog.joeko.net
+Theme URI: http://wordpress.org/
+Description: everything that has a beginning..
+Version: 1
+Author: Joe Kocovsky
+*/
+
+/* -- global -- */
+* {margin:0;padding:0;}
+
+body {background:#514b49;color:#666;font:11px arial,verdana,arial,Sans-Serif;}
+	
+img {border:0;}
+	
+p {font:10px/1.5em arial,verdana,arial,Sans-Serif;color:#666;padding:0;margin:0;}	
+
+a {font:11px/1.5em verdana,arial,Sans-Serif;color:#587265;text-decoration:none;}
+
+a:hover {font:11px/1.5em verdana,arial,Sans-Serif;color:#a14727;}	
+	
+div#container {position:relative;width:900px;margin:auto;background:#d9d9d9;}	
+
+input {width:135px;border:1px solid #a5acb2;font:12px arial,Sans-Serif;padding:2px;color:#666;}
+
+textarea {width:400px;height:150px;border:1px solid #a5acb2;}
+
+/* -- global nav -- */
+
+div#nav {width:900px;height:50px;background:#514b49;}
+
+div#nav li {width:145px;list-style-type:none;}
+
+div#nav li span {position:absolute;left:-9999px;}
+
+html>body div#nav li img {position:relative;bottom:0px;}
+
+div#nav li img {position:relative;bottom:3px;}
+
+div#nav li a {border-bottom:10px solid #94c6b9;display:block;}
+
+div#nav li a:hover {border-bottom:10px solid #f0f0de;}
+
+div#nav li .on {border-bottom:10px solid #f0f0de;}
+
+html>body li#blog {position:absolute;top:20px;left:0;}
+html>body li#practices {position:absolute;top:20px;left:151px;}
+html>body li#email {position:absolute;top:20px;left:302px;}
+html>body li#research {position:absolute;top:20px;left:453px;}
+html>body li#resources {position:absolute;top:20px;left:604px;}
+html>body li#vocab {position:absolute;top:20px;left:755px;}
+
+li#blog {position:absolute;top:32px;left:0;}
+li#practices {position:absolute;top:32px;left:151px;}
+li#email {position:absolute;top:32px;left:302px;}
+li#research {position:absolute;top:32px;left:453px;}
+li#resources {position:absolute;top:32px;left:604px;}
+li#vocab {position:absolute;top:32px;left:755px;}
+
+/* -- header -- */
+
+div#header {width:890px;height:79px;background:#fff url(/wp-content/themes/joekonet/img/logo.gif) no-repeat;margin:5px 5px 0 5px;}
+
+div#util_nav {padding:9px 10px;}
+
+div#util_nav li {list-style-type:none;text-align:right;padding:1px;}
+
+div#util_nav a {font:11px arial,Sans-Serif;color:#a14727;background:#f0f0de;width:60px;display:block;text-decoration:none;padding:2px 3px 2px 2px;}
+
+div#util_nav a:hover {background:#e3dcc0;width:60px;display:block;}
+
+ul#util_lft {display:block;float:right;margin-right:19px;}
+
+ul#util_rt {display:block;float:right;margin-right:5px;}
+
+html>body ul#util_rt {display:block;float:right;margin-right:10px;}
+
+div#util_nav span {position:relative;left:17px;}
+
+/* -- content -- */
+
+div#col_bg {background: url(/wp-content/themes/default/images/colbg.gif) repeat-y;position:relative;top:5px;left:5px;}
+
+div#content {width:900px;background:#d9d9d9 url(/wp-content/themes/default/images/bg.gif);padding-bottom:20px;}
+
+div#rt_col {width:480px;float:right;position:relative;right:238px;top:6px;}
+
+div#lft_col {width:140px;position:relative;left:5px;top:6px;}
+
+div#rt_copy {width:450px;position:relative;top:21px;left:13px;padding-bottom:50px;}
+
+div#lft_copy {width:125px;position:relative;top:18px;left:9px;padding-bottom:50px;}
+
+.post_title {font:bold 11px/1.5em verdana,arial,Sans-Serif;color:#a14727;border-bottom:16px solid #f1f1f1;padding-bottom:2px;}
+
+.post_title span {font:11px/1.5em arial,Sans-Serif;color:#94c6b9;float:right;padding-top:3px;}
+
+.post p {font:12px/1.7em arial,Sans-Serif;color:#595959;margin:10px 0;}
+
+.post a:hover {font:12px/1.7em arial,Sans-Serif;color:#587265;text-decoration:none;}
+
+.post a {font:12px/1.7em arial,Sans-Serif;color:#a14727;}	
+
+.details {margin-bottom:25px;}
+
+.details a {font:bold 10px verdana,arial,Sans-Serif;color:#587265;}
+
+.details a:hover {font:bold 10px verdana,arial,Sans-Serif;color:#a14727;}
+
+div#archives {font:bold 11px/1.7em verdana,arial,Sans-Serif;color:#a14727;padding-right:10px;}
+
+div#categories {font:bold 11px/1.7em verdana,arial,Sans-Serif;color:#a14727;padding-right:10px;}
+
+div#search {font:bold 11px/1.7em verdana,arial,Sans-Serif;color:#a14727;padding-right:10px;}
+
+div#lft_col li {text-align:right;padding:3px 1px 3px 1px;list-style-type:none;}
+
+div#lft_col a {width:125px;height:15px;font:11px arial,Sans-Serif;background:#f1f1f1;display:block;text-decoration:none;padding:1px 8px;}
+
+div#lft_col a:hover {width:125px;height:15px;background:#e3dcc0;display:block;color:#a14727;padding:1px 8px;}
+
+#go {position:absolute;left:116px;padding-top:2px;}
+
+div#clear {clear:right;height:15px;position:relative;}
+
+.top {float:right;}
+
+ol#commentlist {list-style-type:none;}
+
+ol#commentlist li {margin:15px 0;border-bottom:10px solid #f0f0de;}
+
+ol#commentlist p {font:12px/1.6em arial,verdana,arial,Sans-Serif;color:#666;margin:10px 0;}
+
+/* -- footer -- */
+
+div#footer {height:40px;width:900px;background:#fff;margin:1px auto 0 auto;color:#a14727;}
+
+div#footer a {font:11px arial,Sans-Serif;text-transform:lowercase;}
+
+div#footer span {margin:0 5px;}
+
+div#footer ul {margin:auto;text-align:center;padding-top:5px;}
+
+div#footer li {list-style-type:none;display:inline;}
+
+/* -- contact form -- */
+
+#namewarn, #mailwarn, #commentwarn {visibility:hidden;color:#FF0000;font-size:10px;}
+
+#hideme {position:absolute;left:-9999px;visibility:hidden;}
+
+.select {border:1px solid #c7cbcc;color:#999;font:11px arial,verdana,arial,Sans-Serif;}
+
+option {padding:1px 5px;}
+
+div#thanks span {font:bold 11px arial,verdana,Sans-Serif;position:absolute;color:#f00;}
+
+/* -- border:1px solid red; -- */

@@ -1,0 +1,352 @@
+/* global styles */
+/*-------------------------------------------------------------------------------*/
+
+* {margin:0;padding:0;}
+
+h1, h2, h3, h5, h6, p, blockquote, form, label, ul, ol, dl, fieldset, address {margin-bottom:1.4em;list-style-type:none;}
+
+img {border:0;}
+
+a:active, a.active {outline:none;}
+
+body {background:#000 url(/img/flex.jpg) center 137px no-repeat;font:.625em Arial, Helvetica, sans-serif;}	
+
+p {font:1.2em/1.8em Arial, Helvetica, sans-serif;color:#cfecf8;}		
+
+h1 {font-size:1.7em;color:#fff;}
+
+h2 span, h3 span {display:none;}
+
+h4 {margin:0;padding:0;}
+
+a {color:#f1eeba;text-decoration:none;}
+
+a:hover {color:#97ed91;text-decoration:none;}
+
+div#container {width:900px;margin:auto;position:relative;}
+
+div#header {width:900px;height:195px;position:relative;}
+
+img#logo {position:relative;top:73px;left:0px;}
+
+
+/* home page layout */
+/*-------------------------------------------------------------------------------*/
+
+div#featured {width:880px;margin-bottom:10px;position:relative;left:10px;top:1px;}
+
+div#featured h2 {background:url(/img/featured.gif) no-repeat;height:30px;margin-bottom:10px;}
+
+div#featured .tab {background:url(/img/tab.gif) no-repeat;width:155px;height:25px;position:relative;left:715px;}
+
+div#lcol {width:440px;float:left;position:relative;left:10px;margin-bottom:20px;}
+
+div#rcol {width:400px;float:right;position:relative;right:10px;margin-bottom:20px;}
+
+div#lcol h2 {background:url(/img/about.gif) no-repeat;border-bottom:1px solid #454545;height:27px;margin:0;padding:0;}
+
+div#lcol h3 {background:url(/img/hd-about.gif) no-repeat;height:17px;margin:15px 0 10px 0;padding:0;}
+
+div#rcol h2 {background:url(/img/recent.gif) no-repeat;border-bottom:1px solid #454545;height:27px;margin:0;padding:0;}
+
+div#rcol .tab {background:url(/img/tab.gif) no-repeat;width:155px;height:25px;float:right;position:relative;right:10px;}
+
+div#rcol .recent-home {margin:0;padding:0;}
+
+span#rss {float:right;margin:15px 0 0 15px;}
+
+.home-project {margin:15px 0 25px 0;}
+
+.recent-title {margin-bottom:5px;}
+
+.tab {font:10px Arial, Helvetica, sans-serif;color:#f1eeba;padding-left:5px;}
+
+.tab span {position:relative;left:6px;top:7px;}
+
+.tab a {color:#aadef2;margin:0 2px;}
+
+.tab a:hover {color:#97ed91;}
+
+
+/* portfolio page */
+/*-------------------------------------------------------------------------------*/
+
+div#portfolio {width:890px;position:relative;left:10px;top:5px;}
+
+div#portfolio h2 {background:url(/img/recent.gif) no-repeat;border-bottom:1px solid #454545;height:27px;margin:0;padding:0;}
+
+.project {width:890px;background:url(/img/project-bg.jpg) bottom repeat-x;border-bottom:1px solid #454545;position:relative;padding:20px 0 30px 0;margin-bottom:40px;}
+
+.project-thumb {width:341px;height:112px;float:left;}
+
+.project-words {width:325px;float:left;position:relative;left:20px;}
+
+.project-words p {color:#cfecf8;line-height:1.7em;padding-top:4px;}
+
+.project-tools span {color:#aadef2;}
+
+.project-tools {position:absolute;bottom:10px;right:10px;color:#f1eeba;float:right;}
+
+.clear {clear:both;}
+
+
+/* contact page */
+/*-------------------------------------------------------------------------------*/
+
+div#contact {width:890px;position:relative;left:10px;top:5px;}
+
+div#contact h2 {background:url(/img/contact.gif) no-repeat;border-bottom:1px solid #454545;height:27px;margin:0;padding:0;}
+
+
+/* resume page */
+/*-------------------------------------------------------------------------------*/
+
+div#resume {width:890px;position:relative;left:10px;top:5px;}
+
+div#resume h2 {background:url(/img/resume.gif) no-repeat;border-bottom:1px solid #454545;height:27px;margin:0;padding:0;}
+
+
+/* pagination */
+/*-------------------------------------------------------------------------------*/
+
+body#workz .pagination {float:right;text-align:right;padding-bottom:15px;}
+
+.pagination li {display:inline;}
+
+.pagination li a {background:url(/img/paginate.gif) no-repeat;padding:5px;font-size:1.2em;}
+
+.pagination p {color:#aadef2;line-height:1.7em;letter-spacing:.2em;}
+
+.pagination span {color:#f1eeba;padding:5px;font-size:1.2em;}
+
+.arrow {font-size:2em;position:relative;top:2px;background:none !important;color:#aadef2;}
+
+.top-pagination {position:absolute;right:0;margin-top:-5px;z-index:1234;}
+
+.top-pagination li {display:inline;}
+
+.top-pagination li a {background:url(/img/paginate.gif) no-repeat;padding:5px;font-size:1.2em;}
+
+.top-pagination p {color:#aadef2;line-height:1.7em;letter-spacing:.2em;}
+
+.top-pagination span {color:#f1eeba;padding:5px;font-size:1.2em;}
+
+.arrow {font-size:2em;position:relative;top:2px;background:none !important;color:#aadef2;font-size:22px !important;}
+
+.on {background:url(/img/paginate.gif) no-repeat;padding:5px;text-decoration:none;color:#97ed91 !important;}
+
+.arrow-on {font-size:2em;position:relative;top:2px;background:none !important;color:#666 !important;padding:5px;font-size:22px !important;}
+
+
+/* blog page */
+/*-------------------------------------------------------------------------------*/
+
+div#myblog {width:890px;position:relative;left:10px;top:5px;margin-bottom:40px;}
+
+div#myblog h2 {background:url(/img/blog.gif) no-repeat;border-bottom:1px solid #454545;height:27px;margin:0;padding:0;}
+
+div#myblog li {color:#cfecf8;font:1.2em/2em Arial, Helvetica, sans-serif;padding-left:15px;background:url(/img/aslant.gif) 0 5px no-repeat;position:relative;}
+
+div#blog-lcol {width:565px;float:left;position:relative;}
+
+div#myblog h3 {color:#97ed91;font-size:1.3em;margin:0 0 10px 0;padding:0 0 0 35px;background:url(/img/blog-icon.gif) no-repeat;position:relative;}
+
+div#myblog p {font:1.2em/1.8em Arial, Helvetica, sans-serif;color:#ddf6ff;}
+
+div#myblog .posted {text-align:right;color:#f1eeba;margin:6px 10px;}
+
+div#myblog .blog-links {text-align:right;color:#aadef2;margin:0 10px;}
+
+div#myblog .blog-links img {margin-right:4px;}
+
+div#myblog .blog-links a {color:#97ed91;text-decoration:none;}
+
+div#myblog .blog-links a:hover {color:#f1eeba;text-decoration:none;}
+
+div#myblog .blog-cat {margin-bottom:20px;border-bottom:1px solid #454545;padding-bottom:5px;}
+
+div#myblog .blog-cat a {display:block;font-size:1.1em;color:#f1eeba;margin:0 0 8px 0;padding:0;}
+
+div#myblog .blog-cat a:hover {color:#aadef2;}
+
+div#myblog .blog-cat a span {color:#aadef2;font-size:1em;}
+
+div#myblog .sorry {margin:15px 0;}
+
+div#blog-rcol {width:210px;float:right;position:relative;padding-top:15px;padding-bottom:10px;}
+
+span#blog-rss {float:left;margin:15px 0 0 25px;}
+
+div#myblog h4 span {display:none;}
+
+h4#hd-search {background:url(/img/hd-search.gif) no-repeat;width:210px;height:20px;margin:0 0 7px 0;padding:0;}
+
+h4#hd-recent {background:url(/img/hd-recent.gif) no-repeat;width:210px;height:20px;}
+
+h4#hd-topics {background:url(/img/hd-topics.gif) no-repeat;width:210px;height:20px;}
+
+h4#hd-archive {background:url(/img/hd-archive.gif) no-repeat;width:210px;height:20px;}
+
+input#mag-glass {position:relative;left:3px;top:3px;}
+
+form#searchform {margin:0 0 5px 0;padding:0;}
+
+div#postcomment {color:#f1eeba;}
+
+.post {padding:20px 0 15px 0;background:url(/img/project-bg.jpg) bottom repeat-x;margin-bottom:20px;}
+
+.post a {color:#f1eeba;} .post a:hover {color:#97ed91;}
+
+ol p {font-size:12px !important;color:#cfecf8;text-align:left;padding-right:15px;}
+
+ol {margin:0;padding:0;}
+
+ol li {background:#18222b !important;width:550px;padding:10px 0;margin:10px 0 15px 0;border-bottom:1px solid #454545;}
+
+.mailinput {border:1px solid #f1eeba;background:#9db9c3 url(/img/input-bg.gif) repeat-x;width:175px;padding:2px;font-size:1em;color:#333;}
+
+textarea#comment {width:545px;border:1px solid #f1eeba;background:#9db9c3 url(/img/input-bg.gif) repeat-x;padding:3px;font-size:1em;color:#333;font:1em arial,verdana,Sans-Serif;}
+
+textarea#comment:focus, input.mailinput:focus, textarea.mailinput:focus, input:focus, textarea:focus {border:1px solid #fff;background:#fff;}
+
+
+/* footer */
+/*-------------------------------------------------------------------------------*/
+
+div#footer {background:url(/img/foot.jpg) no-repeat;width:900px;height:100px;clear:both;padding:35px 0 0 0;}	
+
+#footer p {letter-spacing:.08em;padding-left:10px;}
+
+#expressionEngine {float:right;}
+
+
+/* global navigation */
+/*-------------------------------------------------------------------------------*/
+
+div#global-nav {height:39px;width:397px;background:url(/img/nav.jpg) no-repeat;position:absolute;top:85px;right:10px;overflow:hidden;}
+
+div#global-nav ul#menu {height:65px;background:url(/img/nav.jpg) top left no-repeat;}
+
+div#global-nav ul#menu li {margin:0;padding:0;list-style:none;position:absolute;top:0;}
+
+div#global-nav ul#menu li span {display:none;}
+
+div#menu li, ul#menu a {height:65px;display:block;text-decoration:none;}
+
+
+/* -- global nav -- *//* UP */
+
+li#home {left:0;width:120px;}
+
+li#work {left:140px;width:120px;}
+
+li#blog {left:275px;width:120px;}
+
+
+/* -- global nav -- *//* OVER */
+
+#home a:hover {background:url(/img/nav.jpg) 0 -39px no-repeat;}
+
+#work a:hover {background:url(/img/nav.jpg) -140px -39px no-repeat;}
+
+#blog a:hover {background:url(/img/nav.jpg) -275px -39px no-repeat;}
+
+
+/* -- global nav -- *//* ACTIVE */
+
+body#homez #home {background:url(/img/nav.jpg) 0 -39px no-repeat;}
+
+body#workz #work {background:url(/img/nav.jpg) -140px -39px no-repeat;}
+
+body#blogz #blog {background:url(/img/nav.jpg) -275px -39px no-repeat;}
+
+
+/* utility navigation */
+/*-------------------------------------------------------------------------------*/
+
+div#utility-nav {height:20px;width:180px;background:url(/img/utility.gif) no-repeat;position:absolute;top:15px;right:10px;overflow:hidden;}
+
+div#utility-nav ul#utility-menu {height:20px;background:url(/img/utility.gif) top left no-repeat;}
+
+div#utility-nav ul#utility-menu li {margin:0;padding:0;list-style:none;position:absolute;top:0;}
+
+div#utility-nav ul#utility-menu li span {display:none;}
+
+div#utility-menu li, ul#utility-menu a {height:65px;display:block;text-decoration:none;}
+
+
+/* -- utility nav -- *//* UP */
+
+li#resume-nav {left:0;width:75px;}
+
+li#contact-nav {left:90px;width:85px;}
+
+
+/* -- utility nav -- *//* OVER */
+
+#resume-nav a:hover {background:url(/img/utility.gif) 0 -20px no-repeat;}
+
+#contact-nav a:hover {background:url(/img/utility.gif) -90px -20px no-repeat;}
+
+
+/* -- utility nav -- *//* ACTIVE */
+
+body#resumez #resume-nav {background:url(/img/utility.gif) 0 -20px no-repeat;}
+
+body#contactz #contact-nav {background:url(/img/utility.gif) -90px -20px no-repeat;}
+
+
+/* build navigation */
+/*-------------------------------------------------------------------------------*/
+
+div#build-nav {height:15px;width:71px;background:url(/img/build.gif) no-repeat;position:relative;top:5px;right:10px;float:right;overflow:hidden;z-index:1234;}
+
+div#build-nav ul#build-menu {height:15px;background:url(/img/build.gif) top left no-repeat;}
+
+div#build-nav ul#build-menu li {margin:0;padding:0;list-style:none;position:absolute;top:0;}
+
+div#build-nav ul#build-menu li span {display:none;}
+
+div#build-menu li, ul#build-menu a {height:15px;display:block;text-decoration:none;}
+
+
+/* -- build nav -- *//* UP */
+
+li#xhtml {left:0;width:40px;}
+
+li#css {left:50px;width:50px;}
+
+
+/* -- build nav -- *//* OVER */
+
+#xhtml a:hover {background:url(/img/build.gif) 0 -15px no-repeat;}
+
+#css a:hover {background:url(/img/build.gif) -50px -15px no-repeat;}
+
+
+/* project navigation */
+/*-------------------------------------------------------------------------------*/
+
+.project-nav {width:185px;height:37px;float:right;background:url(/img/project-nav.gif) no-repeat;overflow:hidden;z-index:1234;position:relative;margin-bottom:10px;}
+
+.project-nav .project-menu {height:37px;background:url(/img/project-nav.gif) top left no-repeat;}
+
+.project-nav .project-menu li {margin:0 0 15px 0;padding:0;list-style:none;display:block;position:relative;}
+
+.project-nav .project-menu li span {display:none;}
+
+.project-menu li, .project-menu a {height:37px;display:block;text-decoration:none;}
+
+
+/* -- project nav -- *//* UP */
+
+.concept {background:url(/img/project-nav.gif) 0 0 no-repeat;}
+
+.launch {background:url(/img/project-nav.gif) -185px 0 no-repeat;}
+
+
+/* -- project nav -- *//* OVER */
+
+.concept a:hover {background:url(/img/project-nav.gif) 0 -37px no-repeat;}
+
+.launch a:hover {background:url(/img/project-nav.gif) -185px -37px no-repeat;}

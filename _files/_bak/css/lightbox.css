@@ -1,0 +1,75 @@
+/* lightbox styles */
+/*-------------------------------------------------------------------------------*/
+
+#lightbox {display:none;position:absolute;top:50%;left:50%;z-index:9999;width:700px;height:450px;margin:-225px 0 0 -350px;border:5px solid #a6b2c8;text-align:left;font:11px/1.6em Arial, Helvetica, sans-serif;background:#000 url(/img/.gif) repeat-x;}
+
+#lightbox[id] {position:fixed;}
+
+#overlay {display:none;position:absolute;top:0;left:0;width:100%;height:100%;z-index:5000;background-color:#000;-moz-opacity: 0.8;opacity:.80;filter: alpha(opacity=80);}
+
+#overlay[id] {position:fixed;}
+
+#lightbox.done #lbLoadMessage {display:none;}
+
+#lightbox.done #lbContent {display:block;}
+
+#lightbox.loading #lbContent {display:none;}
+
+#lightbox.loading #lbLoadMessage {display:block;float:right;position:relative;right:35px;top:20px;color:#ccc;}
+
+#lightbox.done img {}
+
+
+/* layout styles */
+/*-------------------------------------------------------------------------------*/
+
+.close {position:absolute;right:15px;top:15px;}
+
+div#popLcol {width:350px;height:100px;float:left;position:relative;top:25px;left:35px;font:10px Arial,Sans-Serif;}
+
+div#popRcol {width:190px;float:right;position:relative;top:94px;right:65px;border-bottom:1px solid #454545;}
+
+div#popResumeHd {width:139px;height:28px;background:url(/img/pop-resume-hd.gif) no-repeat;}
+
+div#popContactHd {width:139px;height:28px;background:url(/img/pop-contact-hd.gif) no-repeat;}
+
+div#popLcol p {color:#d6f1fb;position:relative;top:30px;font-size:11px;}
+
+div#popRcol p span {color:#d6f1fb;font-weight:bold;}
+
+div#popRcol p {color:#d6f1fb;font-size:12px;}
+
+div#popLcol span {color:#f1eeba;}
+
+div#popRcol p#vcard {padding-left:36px;background:url(/img/vcard.gif) no-repeat;}
+
+#resume {margin:0 7px 0 0;padding-top:5px;}
+
+
+/* -- contact form -- */
+
+form#contact-form {position:relative;top:20px;}
+
+#namewarn, #mailwarn, #commentwarn {visibility:hidden;font-size:11px;color:#fff;}
+
+#hideme {position:absolute;left:-9999px;visibility:hidden;}
+
+option {padding:1px 5px;}
+
+div#thanks span {font:bold 11px arial,verdana,Sans-Serif;position:absolute;color:#f00;}
+
+.select {border:1px solid #c7cbcc;color:#999;font:11px arial,verdana,arial,Sans-Serif;}
+
+label {display:block;font:bold 14px arial,verdana,Sans-Serif;color:#97ed91;margin:10px 0 3px 0 !important;padding:0 !important;font-weight:normal;}
+
+.text {border:1px solid #f1eeba;background:#9db9c3 url(/img/input-bg.gif) repeat-x;width:175px;padding:3px;font-size:1em;color:#333;width:350px;}
+
+.area {border:1px solid #f1eeba;background:#9db9c3 url(/img/input-bg.gif) repeat-x;padding:3px;font-size:1em;color:#333;width:350px;font:11px arial,verdana,Sans-Serif;}
+
+.mailsub {margin:5px 0;}
+
+
+/* contact vaildate */
+/*-------------------------------------------------------------------------------*/
+
+input.mailinput:focus, textarea.mailinput:focus, input:focus, textarea:focus {border:1px solid #fff;background:#fff;}

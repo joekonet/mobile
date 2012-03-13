@@ -1,0 +1,54 @@
+@import url("reset.css");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300);
+/* style.scss */
+/* reset */
+/*-------------------------------------------------------------------------------*/
+/* fonts
+/*-------------------------------------------------------------------------------*/
+/* global
+/*-------------------------------------------------------------------------------*/
+body {
+  background: #8cbdd4;
+  color: #fff; }
+
+section {
+  padding: 4% 5%; }
+
+article b {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 5em;
+  letter-spacing: -0.04em;
+  display: block;
+  margin-bottom: .15em; }
+article i {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  font-style: normal;
+  display: block;
+  margin-bottom: 1em; }
+article p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3.5em; }
+article a {
+  color: #e35214; }
+article a:hover {
+  color: #fff; }
+article dl {
+  margin: 2em 3em; }
+article dt {
+  width: 98%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  margin-bottom: .3em;
+  border-bottom: .7em solid #a3cadb; }
+article dd {
+  line-height: 170%;
+  font-size: 1.2em; }
+article dd:before {
+  content: "\2192 ";
+  padding-right: 1em; }
