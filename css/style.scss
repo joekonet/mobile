@@ -1,5 +1,3 @@
-/* style.scss */
-
 /* reset */
 /*-------------------------------------------------------------------------------*/
 @import url("reset.css");
@@ -8,37 +6,60 @@
 /*-------------------------------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300);
 
-/* global
+/* vars
 /*-------------------------------------------------------------------------------*/
-body {
-	background:#8cbdd4;
-	color:#fff;
+$open-sans:'Open Sans Condensed', sans-serif;
+$open-sans-fat:700;
+$open-sans-skinny:300;
+
+/* media queries
+/*-------------------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) {
+	html, body {
+		height:100%;
+		background:#fff;
+	}
+	section {
+		width:960px;
+		height:100%;
+		margin:auto;
+	}
 }
 
+@media only screen and (min-width: 320px) and (max-width: 960px) {
+	body {
+		background:#8cbdd4;
+	}
+}
+
+/* global
+/*-------------------------------------------------------------------------------*/
 section {
-	padding:4% 5%;
+	background:#8cbdd4;
+	color:#fff;	
 }
 
 article {
+	padding:4% 5%;
 	b {
-		font-family:'Open Sans Condensed', sans-serif;
-		font-weight:700;
+		font-family:$open-sans;
+		font-weight:$open-sans-fat;
 		font-size:5em;
 		letter-spacing:-.04em;
 		display:block;
 		margin-bottom:.15em;	
 	}
 	i {
-		font-family:'Open Sans Condensed', sans-serif;
-		font-weight:300;
+		font-family:$open-sans;
+		font-weight:$open-sans-skinny;
 		font-size:3em;
 		font-style:normal;
 		display:block;
 		margin-bottom:1em;
 	}
 	p {
-		font-family:'Open Sans Condensed', sans-serif;
-		font-weight:700;
+		font-family:$open-sans;
+		font-weight:$open-sans-fat;
 		font-size:3.5em;
 	}
 	a {
@@ -52,8 +73,8 @@ article {
 	}
 	dt {
 		width:98%;
-		font-family:'Open Sans Condensed', sans-serif;
-		font-weight:700;
+		font-family:$open-sans;
+		font-weight:$open-sans-fat;
 		font-size:1.7em;
 		line-height:1.5em;
 		margin-bottom:.3em;

@@ -1,6 +1,9 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" dir="ltr" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" dir="ltr" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" dir="ltr" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" dir="ltr" lang="en-US"> <!--<![endif]-->
+<head>
 		<title>Joseph Kocovsky &#8211; Front-End Developer (R&#233;sum&#233;)</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -20,7 +23,7 @@
 		<article>
 			<b>Joseph J. Kocovsky</b>
 			<i>Front-End Developer</i>
-			<p><a href="http://joeko.net/resume/joe-kocovsky-resume.pdf" title="my r&#233;sum&#233;" target="_blank">&raquo; my r&#233;sum&#233;</a></p>
+			<p><a href="resume/joe-kocovsky-resume.pdf" title="my r&#233;sum&#233;" target="_blank">&raquo; my r&#233;sum&#233;</a></p>
 			<dl>
 				<dt>Find me</dt>
 				<dd><a href="http://www.linkedin.com/in/joekonet" title="LinkedIn" target="_blank">LinkedIn</a></dd>
