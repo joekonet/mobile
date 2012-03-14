@@ -11,7 +11,7 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		 	
 		<link rel="shortcut icon" href="favicon.ico">
-		<link type="text/css" href="css/style.css?<?php echo date('U'); ?>" media="screen" rel="stylesheet" />
+		<link type="text/css" href="css/style.css?<?php echo date('U'); ?>" media="screen" rel="stylesheet">
 		<script src="js/modernizr.custom.98235.js"></script>
 	</head>
 <body>
@@ -20,10 +20,12 @@
 	<section>
 			
 		<!-- begin content -->
-		<article>
+		<hgroup>
 			<b>Joseph J. Kocovsky</b>
-			<i>Front-End Developer</i>
-			<p><a href="resume/joe-kocovsky-resume.pdf" title="my r&#233;sum&#233;" target="_blank">&raquo; my r&#233;sum&#233;</a></p>
+			<i>Front-End Developer</i>	
+		</hgroup>
+		<article>
+			<a href="resume/joe-kocovsky-resume.pdf" title="my r&#233;sum&#233;" target="_blank" class="big">&raquo; my r&#233;sum&#233;</a>
 			<dl>
 				<dt>Find me</dt>
 				<dd><a href="http://www.linkedin.com/in/joekonet" title="LinkedIn" target="_blank">LinkedIn</a></dd>
