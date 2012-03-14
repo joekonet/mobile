@@ -15,14 +15,14 @@ $open-sans-skinny:300;
 }
 
 @mixin gradient() {
-	background: #222029;
-	background: -moz-linear-gradient(top,  #222029 63%, #403638 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(63%,#222029), color-stop(100%,#403638));
-	background: -webkit-linear-gradient(top,  #222029 63%,#403638 100%);
-	background: -o-linear-gradient(top,  #222029 63%,#403638 100%);
-	background: -ms-linear-gradient(top,  #222029 63%,#403638 100%);
-	background: linear-gradient(top,  #222029 63%,#403638 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222029', endColorstr='#403638',GradientType=0 );
+    background: #323b40;
+    background: -moz-radial-gradient(center, ellipse cover, #323b40 0%, #e4f5fc 56%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #323b40), color-stop(56%, #e4f5fc));
+    background: -webkit-radial-gradient(center, ellipse cover, #323b40 0%, #e4f5fc 56%);
+    background: -o-radial-gradient(center, ellipse cover, #323b40 0%, #e4f5fc 56%);
+    background: -ms-radial-gradient(center, ellipse cover, #323b40 0%, #e4f5fc 56%);
+    background: radial-gradient(center, ellipse cover, #323b40 0%, #e4f5fc 56%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#323b40', endColorstr='#e4f5fc',GradientType=1 );
 }
 
 /* global
@@ -49,7 +49,6 @@ hgroup {
 		font-size:3em;
 		font-style:normal;
 	}
-	
 }	
 
 article {
@@ -59,28 +58,24 @@ article {
 		&:hover {
 			color:#fff;
 		}
+		&.big {
+			display:block;
+			font-family:$open-sans;
+			font-weight:$open-sans-fat;
+			font-size:3.5em;
+	 	}
 	}
-	
-	a.big {
-		display:block;
-		font-family:$open-sans;
-		font-weight:$open-sans-fat;
-		font-size:3.5em;
-	} 
-	
 	dl {
 		float:right;
-	}	
-		
+	}		
 	dt {
-		margin-bottom:.3em;
+		margin-bottom:.5em;
 		font-family:$open-sans;
 		font-weight:$open-sans-fat;
 		font-size:1.7em;
 		line-height:1.5em;
 		border-bottom:.7em solid #439bc7;
 	}
-	
 	dd {
 		line-height:170%;
 		font-size:1.2em;
