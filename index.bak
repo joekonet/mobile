@@ -1,0 +1,341 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" dir="ltr" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" dir="ltr" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" dir="ltr" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" dir="ltr" lang="en-US"> <!--<![endif]-->
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no,width=device-width" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet/less" type="text/css" href="css/styles.less">
+	
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/less-1.3.0.min.js"></script>
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->		
+
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-33625168-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+</head>
+
+<body>
+
+	<!-- container -->
+	<section class="container">
+		
+		<!-- header -->
+		<header>
+			<div class="identity">
+				<hgroup>
+					<h1>Joseph Kocovsky</h1>
+					<h2>Interactive Design &amp; Development</h2>
+				</hgroup>
+			</div>
+			<div class="contact">
+				<p>
+					Atlanta, GA. 30318<br>
+					Mobile: (404) 590-8226<br>
+					<span>moc.em@tenokeoj</span>
+				</p>
+			</div>
+		</header>
+		<!-- /header -->
+		
+		<!-- objective -->
+		<section class="objective">
+			<aside class="col-left">
+				<h3>Objective:</h3>
+			</aside>
+			<div class="col-right">
+				<p>To utilize professional web development experience working within a creative environment supporting standards-based, functional web interfaces for clients with unique products and visions.</p>
+			</div>
+		</section>
+		<!-- /objective -->
+		
+		<!-- experience -->
+		<section class="experience">
+			<aside class="col-left">
+				<h3>Professional Experience:</h3>
+			</aside>
+			<div class="col-right">
+				<article>
+					<div class="event">
+						<p>
+							<strong>THINK Interactive, Inc.</strong>
+							User Interface Developer
+						</p>			
+						<p>
+							<strong>2010&ndash;Present</strong>
+							Atlanta, GA
+						</p>
+					</div>
+					<div class="summary">
+						<h4>Summary</h4>
+						<ul>
+							<li>Meticulously uphold web standards, well-optimized coding practices, pixel-perfect interface development, and cross-browser compatibility</li>
+							<li>Contribution and oversight of client-side code, mobile development, content management, design, open-source platforms, rich-email campaigns, and user-experience strategy</li>
+							<li>Lead and maintain organization within team projects and internal initiatives</li>
+						</ul>
+					</div>
+					<div class="featured">
+						<h4>Featured Projects:</h4>
+						<ul>		
+							<li><a href="http://www.thinkinc.com" title="thinkinc.com" target="_blank">http://www.thinkinc.com</a></li>
+							<li><a href="http://pestproject.orkin.com" title="pestproject.orkin.com" target="_blank">http://pestproject.orkin.com</a></li>
+							<li><a href="http://www.thenutrocompany.com" title="thenutrocompany.com" target="_blank">http://www.thenutrocompany.com</a></li>
+							<li><a href="http://www.windstream.com" title="windstream.com" target="_blank">http://www.windstream.com</a></li>
+							<li><a href="http://www.purchasingpower.com/blog/" title="purchasingpower.com/blog/" target="_blank">http://www.purchasingpower.com/blog/</a></li>
+							<li><a href="http://www.lazydays.com" title="lazydays.com" target="_blank">http://www.lazydays.com</a></li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<div class="event">
+						<p>
+							<strong>Independent Contractor</strong>
+							BKV, Inc., Ivey House Development, Market Immediacy, Inc.
+						</p>			
+						<p>
+							<strong>2009&ndash;Present</strong>
+							Atlanta, GA
+						</p>
+					</div>
+					<div class="summary">
+						<h4>Summary</h4>
+						<ul>
+							<li>Produce mobile-first, responsive design web experiences utilizing resolution independent and device agnostic interface layouts</li>
+							<li>Effectively deliver semantic web experiences that separate style, content, and behavior for maintainability and extensibility</li>
+							<li>Develop content management systems built upon open-source solutions including WordPress and Expression Engine</li>
+						</ul>
+					</div>
+					<div class="featured">
+						<h4>Featured Projects:</h4>
+						<ul>
+							<li><a href="http://www.arbyscatering.com" title="arbyscatering.com" target="_blank">http://www.arbyscatering.com</a></li>
+							<li><a href="http://www.otisclapp.com" title="otisclapp.com" target="_blank">http://www.otisclapp.com</a></li>
+							<li><a href="http://www.thecenterforhousing.org" title="thecenterforhousing.org" target="_blank">http://www.thecenterforhousing.org</a></li>
+							<li><a href="http://clients.joeko.net/attservice/" title="clients.joeko.net/attservice/" target="_blank">http://clients.joeko.net/attservice/</a></li>					
+						</ul>
+					</div>
+				</article>				
+				<article>
+					<div class="event">
+						<p>
+							<strong>Macquarium, Inc.</strong>
+							Front-end Developer
+						</p>			
+						<p>
+							<strong>2006&ndash;2009</strong>
+							Atlanta, GA
+						</p>
+					</div>
+					<div class="summary">
+						<h4>Summary</h4>
+						<ul>
+							<li>Participated in leadership roles such as project estimations, meeting facilitation, internal code reviews, and contractor recruiting</li>
+							<li>Authored company-standard best practice documents regarding browser compatibility testing, CSS development, and accessibility guidelines</li>
+							<li>Redeveloped the Macquarium corporate website (<a href="http://www.macquarium.com" title="www.macquarium.com">www.macquarium.com</a>) incorporating web standards, improved accessibility and enhanced Search Engine Optimization</li>
+							<li>Organized and executed internal initiative programs encouraging developers to remain at the forefront of emerging technologies</li>
+							<li>Guided team members in synchronizing development environments and ensuring team communication</li>
+						</ul>
+					</div>
+					<div class="featured">
+						<h4>Featured Projects:</h4>
+						<ul>
+							<li><a href="http://www.emory.edu" title="www.emory.edu" target="_blank">http://www.emory.edu</a></li>
+							<li><a href="http://marbl.library.emory.edu" title="marbl.library.emory.edu" target="_blank">http://marbl.library.emory.edu</a></li>
+							<li><a href="http://creativity.emory.edu" title="creativity.emory.edu" target="_blank">http://creativity.emory.edu</a></li>
+							<li><a href="http://campaign.emory.edu" title="campaign.emory.edu" target="_blank">http://campaign.emory.edu</a></li>
+							<li><a href="http://www.homedepot.com" title="www.homedepot.com" target="_blank">http://www.homedepot.com</a></li>
+							<li><a href="http://www.ups.com" title="www.ups.com" target="_blank">http://www.ups.com</a></li>
+							<li><a href="http://clients.joeko.net/honda" title="clients.joeko.net/honda" target="_blank">http://clients.joeko.net/honda</a></li>
+							<li><a href="http://clients.joeko.net/macquarium/" title="clients.joeko.net/macquarium/" target="_blank">http://clients.joeko.net/macquarium/</a></li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<div class="event">
+						<p>
+							<strong>ICE Design Group</strong>
+							Web Developer
+						</p>			
+						<p>
+							<strong>2005&ndash;2006</strong>
+							Atlanta, GA
+						</p>
+					</div>
+					<div class="summary">
+						<h4>Summary</h4>
+						<ul>
+							<li>Development of functional web interfaces utilizing emerging web standards and tableless layouts</li>
+							<li>Produced and maintained content-rich interfaces intended to integrate seamlessly with back-end administration systems</li>
+							<li>Collaborated in the production of custom server-side solutions to encourage client self-maintenance of frequently updated content</li>
+						</ul>
+					</div>
+					<div class="featured">
+						<h4>Featured Projects:</h4>
+						<ul>
+							<li><a href="http://www.404audio.com" title="404audio.com" target="_blank">http://www.404audio.com</a></li>
+							<li><a href="http://www.cvtracer.com" title="cvtracer.com" target="_blank">http://www.cvtracer.com</a></li>
+							<li><a href="http://clients.joeko.net/gilyardgroup/" title="clients.joeko.net/gilyardgroup/" target="_blank">http://clients.joeko.net/gilyardgroup/</a></li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<div class="event">
+						<p>
+							<strong>CIBA Vision</strong>
+							Web Developer
+						</p>			
+						<p>
+							<strong>2001&ndash;2003</strong>
+							Atlanta, GA
+						</p>
+					</div>
+					<div class="summary">
+						<h4>Summary</h4>
+						<ul>
+							<li>Followed standard practices and procedures to produce interfaces that adhered to technical specifications</li>
+							<li>Produced templates as required to develop and architect internal initiatives</li>
+							<li>Implementation of Flash product demos for client training purposes</li>
+							<li>Documented and reported web analytics and accessibility (Section 508) trends</li>					
+						</ul>
+					</div>
+				</article>
+			</div>
+		</section>
+		<!-- /experience -->
+		
+		<!-- education -->
+		<section class="education">
+			<aside class="col-left">
+				<h3>Education:</h3>
+			</aside>
+			<div class="col-right">
+				<article>
+					<div class="event">
+						<p>
+							<strong>The Art Institute of Atlanta</strong>
+							Bachelor of Fine Arts &ndash; Interactive Media Design
+						</p>			
+						<p>
+							<strong>2003&ndash;2007</strong>
+							Atlanta, GA
+						</p>
+					</div>
+					<div class="featured">
+						<ul>
+							<li>Awarded Magna Cum Laude</li>
+							<li>Awarded Best Portfolio for Web Design and Interactive Media</li>
+						</ul>
+					</div>
+				</article>								
+				<article>
+					<div class="event">
+						<p>
+							<strong>Mercer University</strong>
+							Technical certification
+						</p>			
+						<p>
+							<strong>1999&ndash;2001</strong>
+							Atlanta, GA
+						</p>
+					</div>
+					<div class="featured">
+						<ul>
+							<li>CIW Professional Certiﬁcation</li>
+							<li>CIW Associate Certiﬁcation</li>
+						</ul>
+					</div>
+				</article>												
+			</div>
+		</section>
+		<!-- /education -->
+		
+		<!-- spotlight -->
+		<section class="spotlight">
+			<aside class="col-left">
+				<h3>Technology Spotlight:</h3>
+			</aside>
+			<div class="col-right">
+				<article>
+					<div class="featured">
+						<span>
+							<h4>Languages:</h4>
+							<ul>
+								<li>HTML 5</li>
+								<li>XHTML (W3C Strict)</li>
+								<li>CSS2/CSS3</li>
+								<li>Sass/LESS</li>
+								<li>JavaScript
+									<ul>
+										<li>jQuery</li>
+										<li>jQuery UI</li>
+										<li>Yahoo! UI Library</li>
+										<li>Prototype</li>
+									</ul>
+								</li>
+								<li>PHP
+									<ul>
+										<li>WordPress</li> 
+										<li>Expression Engine</li> 
+									</ul>
+								</li>
+								<li>Mobile
+									<ul>
+										<li>jQuery Mobile</li>
+									</ul>
+								</li>
+								<li>XML</li>
+								<li>JSON</li>
+							</ul>
+						</span>
+						
+						<span>
+							<h4>Applications:</h4>	
+							<ul>
+								<li>Coda 2</li>
+								<li>Transmit</li>
+								<li>Git/SourceTree</li>
+								<li>Subversion/Versions</li>
+								<li>Adobe Photoshop CS6</li>
+								<li>Adobe Illustrator CS6</li>
+								<li>Adobe Flash CS6</li>
+								<li>Adobe Dreamweaver CS6</li>
+								<li>Adobe Fireworks CS6</li>
+								<li>Adobe InDesign CS6</li>
+								<li>MAMP</li>
+								<li>Parallels</li>
+								<li>TypeKit</li>
+								<li>WebInspector</li>
+								<li>Mozilla Firebug</li>
+								<li>YSlow</li>
+							</ul>
+						</span>
+					</div>
+				</article>					
+			</div>
+		</section>
+		<!-- /spotlight -->
+									
+	</section>
+	<!-- /container -->
+	
+	<div class="alpha-resize-indicator"></div>	
+	
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html> 
